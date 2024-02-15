@@ -2,7 +2,8 @@
  * Rollup Config
  *
  * Prerequisites:
- *   npm i --save-dev rollup @rollup/plugin-node-resolve
+ *   npm i -g rollup @rollup/plugin-node-resolve
+ *   npm link @rollup/plugin-node-resolve
  *
  * Use with:
  *   rollup -c rollup.js
