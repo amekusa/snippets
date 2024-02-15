@@ -7,6 +7,16 @@
  *
  * Use with:
  *   rollup -c rollup.js
+ *
+ * package.json:
+ *   {
+ *     "type": "module",
+ *     "exports": {
+ *       "import": "./dist/import/bundle.mjs",
+ *       "require": "./dist/require/bundle.cjs"
+ *     },
+ *   }
+ *
  */
 
 import rNode from '@rollup/plugin-node-resolve';
